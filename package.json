@@ -1,15 +1,15 @@
 {
-  "name": "@pinetwork-js/beauty",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "MIT",
-  "packageManager": "yarn@3.0.0",
-  "devDependencies": {
-    "typescript": "^4.3.5"
-  }
+	"name": "@pinetwork-js/beauty",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "MIT",
+	"packageManager": "yarn@3.0.0",
+	"devDependencies": {
+		"typescript": "^4.3.5"
+	}
 }
