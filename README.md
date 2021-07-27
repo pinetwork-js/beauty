@@ -1,3 +1,4 @@
-# beauty
+# Pinetwork-js Beauty configs
 
-ESLint and Prettier config for Pinetwork-js packages
+- [`@pinetwork-js/eslint-config`](packages/eslint-config)
+- [`@pinetwork-js/prettier-config`](packages/prettier-config)
