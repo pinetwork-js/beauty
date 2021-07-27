@@ -1,8 +1,12 @@
 {
   "name": "@pinetwork-js/beauty",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@3.0.0"
 }
