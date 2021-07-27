@@ -1,0 +1,29 @@
+{
+	"name": "@pinetwork-js/prettier-config",
+	"version": "0.0.0",
+	"description": "Prettier config for Pinetwork-js packages",
+	"main": "index.js",
+	"keywords": [
+		"prettier",
+		"prettier-config",
+		"pinetwork-js"
+	],
+	"author": "Brewal Derouet <brewal_derouet@hotmail.fr>",
+	"license": "MIT",
+	"peerDependencies": {
+		"prettier": "^2.3.2"
+	},
+	"peerDependenciesMeta": {
+		"prettier": {
+			"optional": false
+		}
+	},
+	"homepage": "https://github.com/PiNetwork-js/beauty/tree/main/packages/prettier-eslint#readme",
+	"bugs": {
+		"url": "https://github.com/PiNetwork-js/beauty/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PiNetwork-js/beauty.git"
+	}
+}

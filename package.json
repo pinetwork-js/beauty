@@ -5,11 +5,13 @@
 		"packages/*"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"format": "prettier . --write"
 	},
+	"prettier": "./packages/prettier-config",
 	"license": "MIT",
 	"packageManager": "yarn@3.0.0",
 	"devDependencies": {
+		"prettier": "^2.3.2",
 		"typescript": "^4.3.5"
 	}
 }
