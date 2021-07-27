@@ -1,0 +1,48 @@
+{
+	"name": "@pinetwork-js/eslint-config",
+	"version": "0.0.0",
+	"description": "ESLint config for Pinetwork-js packages",
+	"main": "index.js",
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"pinetwork-js"
+	],
+	"author": "Brewal Derouet <brewal_derouet@hotmail.fr>",
+	"license": "MIT",
+	"dependencies": {
+		"@typescript-eslint/parser": "^4.26.1"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.15.0",
+		"eslint": ">=7.17.0",
+		"eslint-plugin-import": "^2.x",
+		"eslint-plugin-sonarjs": "^0.x",
+		"eslint-plugin-unicorn": ">=28.0.1"
+	},
+	"peerDependenciesMeta": {
+		"@typescript-eslint/eslint-plugin": {
+			"optional": false
+		},
+		"eslint": {
+			"optional": false
+		},
+		"eslint-plugin-import": {
+			"optional": false
+		},
+		"eslint-plugin-sonarjs": {
+			"optional": false
+		},
+		"eslint-plugin-unicorn": {
+			"optional": false
+		}
+	},
+	"homepage": "https://github.com/PiNetwork-js/beauty/tree/main/packages/eslint-config#readme",
+	"bugs": {
+		"url": "https://github.com/PiNetwork-js/beauty/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PiNetwork-js/beauty.git"
+	}
+}

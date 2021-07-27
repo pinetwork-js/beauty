@@ -1,0 +1,9 @@
+// only for typescript-eslint
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"strictNullChecks": true,
+		"outDir": "out"
+	},
+	"include": ["packages/**/*.js"]
+}
