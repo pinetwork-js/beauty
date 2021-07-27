@@ -160,7 +160,18 @@ module.exports = {
 		'unicorn/filename-case': 'off',
 		'unicorn/import-style': 'off',
 		'unicorn/new-for-builtins': 'off',
-		'unicorn/prevent-abbreviations': 'warn',
+		'unicorn/prevent-abbreviations': [
+			'warn',
+			{
+				replacements: {
+					args: false,
+					arg: false,
+					pkg: false,
+					i: false,
+					j: false,
+				},
+			},
+		],
 	},
 	overrides: [
 		{
