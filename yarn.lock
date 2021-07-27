@@ -343,8 +343,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pinetwork-js/beauty@workspace:."
   dependencies:
-    "@types/eslint": ^7
-    "@types/eslint-plugin-prettier": ^3
     "@typescript-eslint/eslint-plugin": ^4.28.5
     "@typescript-eslint/parser": ^4.28.5
     eslint: ^7.31.0
@@ -394,33 +392,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@types/eslint-plugin-prettier@npm:^3":
-  version: 3.1.0
-  resolution: "@types/eslint-plugin-prettier@npm:3.1.0"
-  dependencies:
-    "@types/eslint": "*"
-  checksum: e8fc9991cc181967a961c344ab894b57122e54b5f36950373f42638bb05847caef89a0e12decbb5b4a42e4eefaeefe63053ee2cbf6e1dfce43d77a445bbae728
-  languageName: node
-  linkType: hard
-
-"@types/eslint@npm:*, @types/eslint@npm:^7":
-  version: 7.28.0
-  resolution: "@types/eslint@npm:7.28.0"
-  dependencies:
-    "@types/estree": "*"
-    "@types/json-schema": "*"
-  checksum: 75ac2577d2a2e35bae66f56d2d1c871d5e836b2721cf14bd3df450c9d584eba48fa3b1013fba710245bf4795f16e1df0ed315e543e3199c4815ee4782537d0ae
-  languageName: node
-  linkType: hard
-
-"@types/estree@npm:*":
-  version: 0.0.50
-  resolution: "@types/estree@npm:0.0.50"
-  checksum: 9a2b6a4a8c117f34d08fbda5e8f69b1dfb109f7d149b60b00fd7a9fb6ac545c078bc590aa4ec2f0a256d680cf72c88b3b28b60c326ee38a7bc8ee1ee95624922
-  languageName: node
-  linkType: hard
-
-"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.7":
+"@types/json-schema@npm:^7.0.7":
   version: 7.0.8
   resolution: "@types/json-schema@npm:7.0.8"
   checksum: f1d0fe76ab1db93846f36a9179faa44b9b66f2f5f44597e46e65456a1c998f632c63b94ed347058ed1a230cbf95a9a164b4daf4d70aa3d651d5033f7856df83c
