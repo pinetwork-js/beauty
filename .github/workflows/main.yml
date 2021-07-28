@@ -1,32 +1,43 @@
 name: Continuous Integration
 on:
   push:
-    branches: ["*"]
-    paths-ignore: ["*.{md,txt}", LICENSE, .*config, .vscode]
-    tags-ignore: ["*"]
+    branches:
+      - "*"
+      - main
+    paths-ignore:
+      - "*.{md,txt}"
+      - LICENSE
+      - .*config
+      - .vscode
+    tags-ignore:
+      - "*"
   pull_request:
-    branches: ["*"]
-    paths-ignore: ["*.{md,txt}", LICENSE, .*config, .vscode]
-
+    branches:
+      - "*"
+    paths-ignore:
+      - "*.{md,txt}"
+      - LICENSE
+      - .*config
+      - .vscode
 jobs:
   main:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         node-version:
-          - 12.x
-          - 14.x
-          - 16.x
-
+          - "15"
+          - "16"
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-
       - name: Install dependencies
         run: yarn install --immutable
-
       - name: Lint
         run: yarn lint
+      - name: Use Node.js v${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
