@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.2](https://www.github.com/PiNetwork-js/beauty/compare/eslint-config-v0.1.1...eslint-config-v0.1.2) (2021-08-21)
+
+
+### Bug Fixes
+
+* add env as exception for unicorn/prevent-abbreviations ([a0986c6](https://www.github.com/PiNetwork-js/beauty/commit/a0986c6409379061a61801791a225e48e3604f4e))
+
 ### [0.1.1](https://www.github.com/PiNetwork-js/beauty/compare/eslint-config-v0.1.0...eslint-config-v0.1.1) (2021-07-27)
 
 
