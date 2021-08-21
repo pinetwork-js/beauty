@@ -169,6 +169,7 @@ module.exports = {
 					pkg: false,
 					i: false,
 					j: false,
+					env: false,
 				},
 			},
 		],
