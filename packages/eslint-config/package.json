@@ -11,29 +11,18 @@
   "author": "Brewal Derouet <brewal_derouet@hotmail.fr>",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/parser": "^5.31.0"
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-sonarjs": "^0.14.0",
+    "eslint-plugin-unicorn": "^43.0.2"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.15.0",
-    "eslint": ">=7.17.0",
-    "eslint-plugin-import": "^2.x",
-    "eslint-plugin-sonarjs": "^0.x",
-    "eslint-plugin-unicorn": ">=28.0.1"
+    "eslint": ">=8.0.0"
   },
   "peerDependenciesMeta": {
-    "@typescript-eslint/eslint-plugin": {
-      "optional": false
-    },
     "eslint": {
-      "optional": false
-    },
-    "eslint-plugin-import": {
-      "optional": false
-    },
-    "eslint-plugin-sonarjs": {
-      "optional": false
-    },
-    "eslint-plugin-unicorn": {
       "optional": false
     }
   },
