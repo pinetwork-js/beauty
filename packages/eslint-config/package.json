@@ -11,7 +11,7 @@
   "author": "Brewal Derouet <brewal_derouet@hotmail.fr>",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/parser": "^4.26.1"
+    "@typescript-eslint/parser": "^5.31.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.15.0",
