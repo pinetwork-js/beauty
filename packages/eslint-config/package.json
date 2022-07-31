@@ -1,6 +1,6 @@
 {
   "name": "@pinetwork-js/eslint-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "ESLint config for Pinetwork-js packages",
   "main": "index.js",
   "keywords": [
