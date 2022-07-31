@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/PiNetwork-js/beauty/compare/eslint-config-v0.1.2...eslint-config-v0.2.0) (2022-07-31)
+
+
+### Features
+
+* **eslint-config:** new ESLint configuration ([4b0dad8](https://www.github.com/PiNetwork-js/beauty/commit/4b0dad86c819a7d2440588d292605f05effb2c5d))
+
 ### [0.1.2](https://www.github.com/PiNetwork-js/beauty/compare/eslint-config-v0.1.1...eslint-config-v0.1.2) (2021-08-21)
 
 
