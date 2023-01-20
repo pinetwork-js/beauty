@@ -11,7 +11,7 @@
 		"format": "prettier . --write",
 		"mrm": "mrm --preset @pinetwork-js/mrm-preset"
 	},
-	"packageManager": "yarn@3.2.2",
+	"packageManager": "yarn@3.3.1",
 	"license": "MIT",
 	"devDependencies": {
 		"@pinetwork-js/mrm-preset": "^0.1.2",
