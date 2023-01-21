@@ -1,7 +1,7 @@
 {
   "name": "@pinetwork-js/eslint-config",
   "version": "0.2.0",
-  "description": "ESLint config for Pinetwork-js packages",
+  "description": "ESLint config for Pinetwork.js packages",
   "main": "index.js",
   "keywords": [
     "eslint",
@@ -9,7 +9,7 @@
     "pinetwork-js"
   ],
   "author": "Brewal Derouet <brewal_derouet@hotmail.fr>",
-  "license": "MIT",
+  "license": "PiOS",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",

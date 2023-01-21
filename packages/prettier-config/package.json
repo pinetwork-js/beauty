@@ -1,7 +1,7 @@
 {
   "name": "@pinetwork-js/prettier-config",
   "version": "0.1.0",
-  "description": "Prettier config for Pinetwork-js packages",
+  "description": "Prettier config for Pinetwork.js packages",
   "main": "index.js",
   "keywords": [
     "prettier",
@@ -9,7 +9,7 @@
     "pinetwork-js"
   ],
   "author": "Brewal Derouet <brewal_derouet@hotmail.fr>",
-  "license": "MIT",
+  "license": "PiOS",
   "peerDependencies": {
     "prettier": "^2.3.2"
   },
